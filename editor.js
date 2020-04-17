@@ -6567,7 +6567,7 @@
                             unit: "cm"
                         }, {
                             text: "70 x 100cm",
-                            value: "70_1000",
+                            value: "70_100",
                             width: 700,
                             height: 1000,
                             unit: "cm"
