@@ -6567,9 +6567,9 @@
                             unit: "cm"
                         }, {
                             text: "70 x 100cm",
-                            value: "70_100",
+                            value: "70_1000",
                             width: 700,
-                            height: 100,
+                            height: 1000,
                             unit: "cm"
                         }], e.activeCustom = e.$store.getters.downloadSize.value, e.selectedActiveSize = void 0, e.activeCustomUnit = e.$store.getters.unit, e.activeCustomWidth = e.$store.getters.downloadSize.pageSize[0] / 10, e.activeCustomHeight = e.$store.getters.downloadSize.pageSize[1] / 10, e.sizeMin = 10, e.sizeMax = 100, e.product = e.$store.getters.activeProduct.kind, e
                     }
