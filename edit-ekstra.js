@@ -11,6 +11,7 @@ $('a[data-toggle="pill"]').on("shown.bs.tab", function (e) {
 */
 $("#blocker").click(function () {
   scrollTo(0, 0);
+});
 $(window).scroll(function () {
   if ($(window).scrollTop() > 20) {
     if (!dark) {
