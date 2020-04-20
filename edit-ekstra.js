@@ -256,4 +256,4 @@ function calcSize() {
   regex = /scale\([0-9|\.]*\)/;
   newTrans = curTrans.replace(regex, newScaleString);
   div2.style.transform = newTrans;
-  }
+}
