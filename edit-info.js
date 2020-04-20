@@ -9,7 +9,7 @@ $('a[data-toggle="pill"]').on("shown.bs.tab", function (e) {
   scrollTo(0, 0);
 });
 */
-$(".blocker").click(function () {
+$("#active d-lg-none d-xl-none").click(function () {
   scrollTo(0, 0);
 });
 $(window).scroll(function () {
