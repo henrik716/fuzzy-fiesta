@@ -5,10 +5,13 @@ $('a[data-toggle="pill"]').on("shown.bs.tab", function (e) {
   var target = $(e.target).attr("href");
   scrollTo(0, document.body.scrollHeight);
 });
-$("#mainview").click(function () {
+/*$("#mainview").click(function () {
   scrollTo(0, 0);
 });
-
+*/
+$("#blocker").click(function () {
+  scrollTo(0, 0);
+});
 $(window).scroll(function () {
   if ($(window).scrollTop() > 20) {
     if (!dark) {
@@ -205,7 +208,6 @@ var cWidth = 300,
   canvasWidth = 900,
   canvasHeight = 1200;
 var scale = 1;
-
 $(document).ready(function (e) {
   $(window).resize(function () {
     calcSize();
