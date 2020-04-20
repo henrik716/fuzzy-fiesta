@@ -5,7 +5,7 @@ $('a[data-toggle="pill"]').on("shown.bs.tab", function (e) {
   var target = $(e.target).attr("href");
   scrollTo(0, document.body.scrollHeight);
 });
-$("#blocker").click(function () {
+$("#mainview").click(function () {
   scrollTo(0, 0);
 });
 $(window).scroll(function () {
