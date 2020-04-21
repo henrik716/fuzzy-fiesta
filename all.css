@@ -289,7 +289,13 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	pointer-events: visiblePainted;
 	pointer-events: auto
 }
-
+.leaflet-control-geosearch.bar {
+	width: 100% !important;
+	margin: 0px !important;
+}
+.leaflet-control-geosearch.bar form {
+	background: #fafafa !important;
+}
 .leaflet-container {
 	background: #ddd;
 	outline: 0
