@@ -29083,7 +29083,7 @@ p.woocommerce-shipping-destination {
 }
 
 .attributions {
-	text-align: center;
+	text-align: right;
 	margin-top: -10px;
 	font-size: .5em
 }
@@ -29363,8 +29363,8 @@ p.woocommerce-shipping-destination {
 
 .btn-success {
 	color: #fff;
-	background-color: #0f0f0f !important;
-	border-color: #0f0f0f !important
+	background-color: #0274be !important;
+	border-color: #0274be !important
 }
 
 .btn-success:hover {
@@ -29376,7 +29376,7 @@ p.woocommerce-shipping-destination {
 .btn-success:active {
 	color: #fff;
 	background-color: #303030 !important;
-	border-color: # #303030!important
+	border-color: #303030!important
 }
 
 .optionbtn {
