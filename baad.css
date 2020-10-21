@@ -1,0 +1,614 @@
+.cm21x30 .mapiful {
+	font-size: .5em
+}
+
+.cm30x40 .mapiful {
+	font-size: .625em
+}
+
+.cm50x70 .mapiful {
+	font-size: 1em
+}
+
+.cm61x91 .mapiful {
+	font-size: 1.2em
+}
+
+.cm70x100 .mapiful {
+	font-size: 1.5em
+}
+
+.mapiful {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	width: 100%;
+	height: 100%;
+	border: 3em solid #fff
+}
+
+#border {
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border: .4em solid #000;
+	position: absolute;
+	z-index: 98
+}
+
+#border2 {
+	left: -.5em;
+	top: -.5em;
+	right: -.5em;
+	bottom: -.5em;
+	position: absolute;
+	border: .15em solid #000;
+	z-index: 99
+}
+
+.titleBg {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, hsla(0, 0%, 100%, 0)), color-stop(50%, #fff), color-stop(50%, #fff));
+	background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0, #fff 50%, #fff 0);
+	height: 40%;
+	margin-top: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%
+}
+
+.titleText {
+	height: 23%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 102
+}
+
+.titlemapiful {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 3.5em;
+	font-weight: 800;
+	letter-spacing: .1em;
+	font-family: Heebo, sans-serif
+}
+
+.subtitlemapiful {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 2.5em;
+	font-weight: 400;
+	padding-top: .15em;
+	letter-spacing: .2em;
+	margin-top: .25em;
+	overflow: hidden;
+	font-family: Heebo, sans-serif
+}
+
+.subtitlemapiful.subtitlemapifulborder:before,
+.subtitlemapiful.subtitlemapifulborder:after {
+	background-color: #000;
+	content: "";
+	display: inline-block;
+	height: .1em;
+	position: relative;
+	vertical-align: middle;
+	width: 2em
+}
+
+.subtitlemapiful.subtitlemapifulborder:before {
+	right: .7em;
+	margin-left: -50%
+}
+
+.subtitlemapiful.subtitlemapifulborder:after {
+	left: .5em;
+	margin-right: -50%
+}
+
+.coordTextmapiful {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Heebo, sans-serif;
+	font-size: 1.5em;
+	margin-top: .5em
+}
+
+.cm21x30 .corner {
+	font-size: .5em
+}
+
+.cm30x40 .corner {
+	font-size: .625em
+}
+
+.cm50x70 .corner {
+	font-size: 1em
+}
+
+.cm61x91 .corner {
+	font-size: 1.2em
+}
+
+.cm70x100 .corner {
+	font-size: 1.5em
+}
+
+.cornerframe {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	padding: 1em;
+	margin: 3em;
+	border: .18em solid #000
+}
+
+.titlecorner {
+	display: block;
+	text-align: left;
+	line-height: 1;
+	font-size: 1.5em;
+	font-weight: 800;
+	letter-spacing: .1em;
+	text-indent: .1em;
+	font-family: Heebo, sans-serif
+}
+
+.subtitlecorner {
+	display: block;
+	text-align: left;
+	line-height: 1;
+	font-size: .8em;
+	font-weight: 600;
+	letter-spacing: .1em;
+	text-indent: .1em;
+	font-family: Heebo, sans-serif
+}
+
+.coordTextcorner {
+	display: block;
+	text-align: left;
+	line-height: 1;
+	font-family: Heebo, sans-serif;
+	font-size: .7em;
+	margin-top: .5em
+}
+
+.cm21x30 .dark {
+	font-size: .5em
+}
+
+.cm30x40 .dark {
+	font-size: .625em
+}
+
+.cm50x70 .dark {
+	font-size: 1em
+}
+
+.cm61x91 .dark {
+	font-size: 1.2em
+}
+
+.cm70x100 .dark {
+	font-size: 1.5em
+}
+
+.darkframe {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	width: 100%;
+	height: 100%;
+	border: 5em solid #fff;
+	z-index: 9999!important
+}
+
+.darkinner {
+	width: 100%;
+	background-color: #000;
+	border-top: .45em solid #fff;
+	padding: .25em 1em
+}
+
+.titledark {
+	display: block;
+	text-align: left;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 2em;
+	font-family: Heebo, sans-serif;
+	font-weight: 800;
+	text-indent: 0;
+	width: 100%;
+	padding-top: .3em;
+	color: #fff
+}
+
+.subtitledark {
+	display: block;
+	text-align: left;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Heebo, sans-serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	letter-spacing: .1em;
+	text-indent: 0;
+	color: #fff
+}
+
+.coordTextdark {
+	display: block;
+	text-align: right;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Heebo, sans-serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	color: #fff;
+	padding-bottom: .3em
+}
+
+.cm21x30 .legend {
+	font-size: .5em
+}
+
+.cm30x40 .legend {
+	font-size: .625em
+}
+
+.cm50x70 .legend {
+	font-size: 1em
+}
+
+.cm61x91 .legend {
+	font-size: 1.2em
+}
+
+.cm70x100 .legend {
+	font-size: 1.5em
+}
+
+.legend {
+	position: absolute;
+	left: 50%;
+	bottom: 0
+}
+
+.legendframe {
+	position: relative;
+	bottom: 0;
+	left: -50%;
+	background-color: rgba(255, 255, 255, .9);
+	padding: 1em;
+	text-align: center;
+	margin-bottom: 4.5em
+}
+
+.titlelegend {
+	display: block;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 3.5em;
+	font-weight: 800;
+	font-family: Heebo, sans-serif
+}
+
+.subtitlelegend {
+	display: block;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 2em;
+	font-weight: 400;
+	font-family: Heebo, sans-serif
+}
+
+.coordTextlegend {
+	display: block;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 1.5em
+}
+
+.cm21x30 .circle {
+	font-size: .5em
+}
+
+.cm30x40 .circle {
+	font-size: .625em
+}
+
+.cm50x70 .circle {
+	font-size: 1em
+}
+
+.cm61x91 .circle {
+	font-size: 1.2em
+}
+
+.cm70x100 .circle {
+	font-size: 1.5em
+}
+
+#bordercircle {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%
+}
+
+.titleTextcircle {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 5em;
+	font-family: Avenir, sans-serif
+}
+
+.titlecircle {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 3em;
+	font-weight: 300;
+	font-family: Avenir, sans-serif
+}
+
+.subtitlecircle {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Avenir, sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: .2em;
+	margin-top: .4em
+}
+
+.coordTextcircle {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Avenir, sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	margin-top: .5em
+}
+
+svg {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0 auto
+}
+
+path {
+	fill: #fff
+}
+
+.cm21x30 .heart {
+	font-size: .5em
+}
+
+.cm30x40 .heart {
+	font-size: .625em
+}
+
+.cm50x70 .heart {
+	font-size: 1em
+}
+
+.cm61x91 .heart {
+	font-size: 1.2em
+}
+
+.cm70x100 .heart {
+	font-size: 1.5em
+}
+
+#borderheart {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%
+}
+
+.titleTextheart {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 5em;
+	font-family: Avenir, sans-serif
+}
+
+.titleheart {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 3em;
+	font-weight: 300;
+	font-family: Avenir, sans-serif
+}
+
+.subtitleheart {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Avenir, sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: .2em;
+	margin-top: .4em
+}
+
+.coordTextheart {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Avenir, sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	margin-top: .5em
+}
+
+.cm21x30 .basic {
+	font-size: .5em
+}
+
+.cm30x40 .basic {
+	font-size: .625em
+}
+
+.cm50x70 .basic {
+	font-size: 1em
+}
+
+.cm61x91 .basic {
+	font-size: 1.2em
+}
+
+.cm70x100 .basic {
+	font-size: 1.5em
+}
+
+.basicframe {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	width: 100%;
+	height: 100%;
+	border: 5em solid #fff
+}
+
+.basicinner {
+	width: 100%;
+	padding: 1.5em 0;
+	background-color: #fff
+}
+
+.titlebasic {
+	display: block;
+	text-align: left;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 2.7em;
+	font-family: 'Sedgwick Ave', cursive;
+	font-weight: 800;
+	text-indent: 0;
+	width: 100%;
+	color: #000;
+	padding-left: .3em
+}
+
+.subtitlebasic {
+	display: block;
+	text-align: right;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Avenir, sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	letter-spacing: .1em;
+	text-indent: 0;
+	color: #000;
+	padding-bottom: .2em
+}
+
+.coordTextbasic {
+	display: block;
+	text-align: right;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Avenir, sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #000;
+	padding-bottom: .3em
+}
